@@ -1,0 +1,17 @@
+{
+  "name": "ZombsioClient",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/omerasaf01/ZombsioClient.git",
+  "author": "Ömer Asaf Karasu <omerconsept999@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^20.0.1",
+    "electron-builder": "^23.3.3"
+  },
+  "scripts": {
+    "start": "electron .",
+    "build-win": "electron-builder --win .",
+    "build-linux": "electron-builder --linux ."
+  }
+}
